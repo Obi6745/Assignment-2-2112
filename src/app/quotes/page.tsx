@@ -1,8 +1,8 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useAppContext } from '@/app/context/AppContext'
-import QuoteCard from '@/app/components/QuoteCard'
+import { useAppContext } from '@/context/AppContext'
+import QuoteCard from '@/components/QuoteCard'
 
 // What a quote looks like
 interface Quote {
