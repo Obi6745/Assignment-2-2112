@@ -19,7 +19,7 @@ export default function Home() {
             My React App
           </h1>
           <p className={`text-2xl mb-12 text-gray-300`}>
-            A simple React application for college
+            A simple React application for my College Assignment 2 
           </p>
           
           {/* Navigation cards */}
