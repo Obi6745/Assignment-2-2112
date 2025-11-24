@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { useAppContext } from '@/context/AppContext'
+import { useAppContext } from '@/app/context/AppContext'
 
 export default function Home() {
   const { user } = useAppContext()

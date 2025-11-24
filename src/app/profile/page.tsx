@@ -1,7 +1,7 @@
 'use client'
 
-import { useAppContext } from '@/context/AppContext'
-import ProfileInfo from '@/components/ProfileInfo'
+import { useAppContext } from '@/app/context/AppContext'
+import ProfileInfo from '@/app/components/ProfileInfo'
 
 export default function ProfilePage() {
   // Get user data from Context

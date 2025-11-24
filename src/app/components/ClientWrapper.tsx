@@ -1,7 +1,7 @@
 'use client'
 
-import { AppProvider } from '@/context/AppContext'
-import Navbar from '@/components/Navbar'
+import { AppProvider } from '@/app/context/AppContext'
+import Navbar from '@/app/components/Navbar'
 
 export default function ClientWrapper({ children }: { children: React.ReactNode }) {
   return (

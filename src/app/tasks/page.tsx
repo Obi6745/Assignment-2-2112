@@ -1,9 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useAppContext } from '@/context/AppContext'
-import TodoItem from '@/components/TodoItem'
-import TodoStats from '@/components/TodoStats'
+import { useAppContext } from '@/app/context/AppContext'
+import TodoItem from '@/app/components/TodoItem'
+import TodoStats from '@/app/components/TodoStats'
 
 // What a todo item looks like
 interface Todo {

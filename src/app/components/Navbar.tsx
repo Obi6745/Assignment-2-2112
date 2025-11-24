@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useAppContext } from '@/context/AppContext'
+import { useAppContext } from '@/app/context/AppContext'
 
 export default function Navbar() {
   const pathname = usePathname()
